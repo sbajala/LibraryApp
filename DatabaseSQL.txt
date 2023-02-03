@@ -1,0 +1,33 @@
+CREATE TABLE `books` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `title` varchar(45) NOT NULL,
+  `author` varchar(45) NOT NULL,
+  `published_date` varchar(45) NOT NULL,
+  `borrower_id` int NOT NULL,
+  `isBorrowed` tinyint NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `id_idx` (`borrower_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+INSERT INTO books (title, author, published_date, borrower_id, isBorrowed) VALUES ('Normal People', 'Sally Rooney', '2018-08-28', 0, false);
+INSERT INTO books (title, author, published_date, borrower_id, isBorrowed) VALUES ('Eleanor and Park', 'Rainbow Rowell', '2012-01-01', 0, false);
+INSERT INTO books (title, author, published_date, borrower_id, isBorrowed) VALUES ('A Walk to Remember', 'Nicholas Sparks', '1999-10-12', 0, false);
+INSERT INTO books (title, author, published_date, borrower_id, isBorrowed) VALUES ('In Five Years', 'Hans Christina', '2020-03-10', 0, false);
+INSERT INTO books (title, author, published_date, borrower_id, isBorrowed) VALUES ('The Light We Lost', 'Jill Santopolo', '2017-05-09', 0, false);
+INSERT INTO books (title, author, published_date, borrower_id, isBorrowed) VALUES ('GoLang', 'Dara', '2022-04-09', 0, false);
+INSERT INTO books (title, author, published_date, borrower_id, isBorrowed) VALUES ('The Day We Meet Again', 'Miranda Dickinson', '2019-09-05', 0, false);
+
+CREATE TABLE `members` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  `telephone` varchar(45) NOT NULL,
+  `membership_date` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+INSERT INTO members (name, email, telephone, membership_date) VALUES ('Sharmaine', 'sharmaine@email.com', '514-123-1234', '2021-05-12');
+INSERT INTO members (name, email, telephone, membership_date) VALUES ('Mia', 'mia@email.com', '514-321-1323', '2020-03-01');
+INSERT INTO members (name, email, telephone, membership_date) VALUES ('Eliza', 'eliza@email.com', '514-456-7890', '2022-02-05');

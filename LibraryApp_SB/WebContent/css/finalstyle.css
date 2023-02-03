@@ -1,0 +1,113 @@
+@charset "ISO-8859-1";
+
+*{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+	background: rgb(245, 243, 239);
+}
+
+.title {
+	text-align: center;
+}
+
+.flex-container {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+}
+
+.flex-child {
+	flex: auto;
+	background: white;
+	border-radius: 5px;
+	width: 200px;
+	padding: 10px;
+}
+
+.id {
+	font-weight: bold;
+}
+
+th {
+	padding: 8px;
+	background: rgb(255, 245, 179);
+	border: 1px white;
+	box-shadow: 2px 2px 2px 2px rgb(230, 199, 0);
+	border-radius: 5px;
+	height: 8px;
+}
+
+
+td {
+	padding: 10px;
+}
+
+table {
+	border-collapse: separate;
+	border-radius: 5px;
+	border-spacing: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	box-shadow: 2px 2px 3px 3px rgb(188, 166, 143);
+	background: white;
+}
+
+.center {
+	text-align: center;
+}
+
+.box {
+	background: rgb(255, 255, 179);
+	box-shadow: 2px 2px 2px 2px rgb(255, 224, 102);
+	padding: 20px;
+	border-radius: 5px;
+	width: 400px;
+	text-align: center;
+}
+
+.delete {
+	font-weight: bold;
+	color: white;
+	background: rgb(153, 0, 0);
+	border-radius: 5px;
+	border: white;
+	box-shadow: 2px 2px rgb(51, 10, 0);
+}
+
+.button {
+	font-weight: bold;
+	color: Black;
+	background: rgb(255, 245, 179);
+	border-radius: 5px;
+	border: white;
+	box-shadow: 2px 2px 2px 2px rgb(230, 199, 0);
+	text-align:center;
+	width: 200px;
+	padding: 5px;
+}
+
+.biggerBox {
+	background: rgb(207, 191, 175);
+	box-shadow: 2px 2px 5px 5px rgb(169, 141, 112);
+	border-radius: 5px;
+	height: auto;
+	width: 700px;
+}
+
+input {
+	width: 200px;
+	padding: 5px;
+}
+
+tr:nth-child(odd) {background: rgb(235, 231, 224)}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
