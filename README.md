@@ -30,7 +30,7 @@ Books that are returned must be returned by the user who borrowed it.
 
 
 
-## Feature considerations
+## Future considerations
 Implement validation and hash passwords for login.
 
 ## Credits
