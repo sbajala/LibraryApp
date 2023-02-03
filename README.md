@@ -24,9 +24,9 @@ When a user enters the wrong login information (wrong username or password), a m
 An additional layer of validation that sets descriptive messages for admin (whether the transaction was successful or not).
 
 ### Validation
-Books that are borrowed (unavailable) cannot be borrowed by another user.
-Books that are available (not borrowed) cannot be returned.
-Books that are returned must be returned by the user who borrowed it.
+- Books that are borrowed (unavailable) cannot be borrowed by another user.
+- Books that are available (not borrowed) cannot be returned.
+- Books that are returned must be returned by the user who borrowed it.
 
 
 
