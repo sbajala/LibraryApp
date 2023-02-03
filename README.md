@@ -10,9 +10,25 @@ Users are able to do the following:
 Admin users are able to do the following: 
 - Add new books.
 - Remove existing books.
-- View library members
+- Update existing books.
+- View library members.
 - Modify members' information
 - Delete members.
+
+
+## Implemented features
+### Login
+When a user enters the wrong login information (wrong username or password), a message will be displayed above the login form.
+
+### Services file
+An additional layer of validation that sets descriptive messages for admin (whether the transaction was successful or not).
+
+### Validation
+Books that are borrowed (unavailable) cannot be borrowed by another user.
+Books that are available (not borrowed) cannot be returned.
+Books that are returned must be returned by the user who borrowed it.
+
+
 
 ## Feature considerations
 Implement validation for login.
