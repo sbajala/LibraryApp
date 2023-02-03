@@ -6,7 +6,8 @@ Users must log in to access the library. If they are an admin, they are provided
 Users are able to do the following:
 - Borrow books.
 - Return books.
-<br> Admin users are able to do the following: 
+<br>
+Admin users are able to do the following: 
 - View library members
 - Modify members' information
 - Delete members.
