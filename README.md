@@ -31,7 +31,7 @@ Books that are returned must be returned by the user who borrowed it.
 
 
 ## Feature considerations
-Implement validation for login.
+Implement validation and hash passwords for login.
 
 ## Credits
 Created by Sharmaine Bajala.
