@@ -1,6 +1,11 @@
 # Library App
 Java desktop application that simulates a library.
 
+## Programming language and technologies used
+- Java
+- Eclipse
+- SQLite
+
 ## Description
 Users must log in to access the library. If they are an admin, they are provided with admin features or else they are provided with user features. <br/>
 Users are able to do the following:
@@ -15,7 +20,6 @@ Admin users are able to do the following:
 - Modify members' information
 - Delete members.
 
-
 ## Implemented features
 ### Login
 When a user enters the wrong login information (wrong username or password), a message will be displayed above the login form.
@@ -27,8 +31,6 @@ An additional layer of validation that sets descriptive messages for admin (whet
 - Books that are borrowed (unavailable) cannot be borrowed by another user.
 - Books that are available (not borrowed) cannot be returned.
 - Books that are returned must be returned by the user who borrowed it.
-
-
 
 ## Future considerations
 Implement validation and hash passwords for login.
