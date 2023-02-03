@@ -1,5 +1,5 @@
 # Library App
-Java desktop application that simulates a library.
+Java application that simulates a library.
 
 ## Programming language and technologies used
 - Java
